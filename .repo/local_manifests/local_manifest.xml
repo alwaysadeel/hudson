@@ -25,7 +25,7 @@
   <project path="packages/apps/Settings" name="AJ1997/android_packages_apps_Settings" />
   <project path="device/sony/kumquat" name="AJ1997/android_device_sony_kumquat" />
   <project path="device/sony/nypon" name="AJ1997/android_device_sony_nypon" />
-  <project path="device/sony/montblanc-common" name="AJ1997/android_device_sony_montblanc-common" revision="cm-11.0" />
+  <project path="device/sony/montblanc-common" name="AJ1997/android_device_sony_montblanc-common" />
   <project path="hardware/ste-sony" name="AJ1997/android_hardware_ste-sony" revision="master" />
   <project path="kernel/sony/u8500" name="AJ1997/android_kernel_sony_u8500" revision="master" />
   <project path="vendor/sony" name="AJ1997/android_vendor_sony" revision="master" />
