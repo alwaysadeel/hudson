@@ -5,8 +5,8 @@ Helpful scripts for build CM11
 
 QuickStart:
 
-    git clone https://github.com/XperiaSTE/android_scripts.git -b kk android;
-    cd android;
+    git clone https://github.com/AJ1997/android_scripts.git -b kk carbon;
+    cd carbon;
     repo init -u https://github.com/CarbonDev/android.git -b kk
     ./Update.sh;
     ./CompileROM.sh -u; (Xperia U)
