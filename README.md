@@ -5,7 +5,7 @@ Helpful scripts for build CM11
 
 QuickStart:
 
-    git clone https://github.com/XperiaSTE/android_scripts.git -b cm-11.0 android;
+    git clone https://github.com/XperiaSTE/android_scripts.git -b kk android;
     cd android;
     repo init -u https://github.com/CarbonDev/android.git -b kk
     ./Update.sh;
