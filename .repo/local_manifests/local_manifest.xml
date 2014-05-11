@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="kernel"
+          fetch="git://git.kernel.org/pub/scm/" />
+
+  <remote name="googlecode"
+          fetch="https://code.google.com/p/" />
+
+  <remove-project name="CarbonDev/android_packages_apps_CarbonDelta" />
+  <remove-project name="CarbonDev/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <remove-project name="CarbonDev/android_build" />
+  <remove-project name="CarbonDev/android_bionic" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <remove-project name="CarbonDev/android_frameworks_av" />
+  <remove-project name="CarbonDev/android_frameworks_base" />
+  <remove-project name="CarbonDev/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CarbonDev/android_system_core" />
+
+  <project path="packages/apps/Settings" name="AJ1997/android_packages_apps_Settings" />
+  <project path="device/sony/kumquat" name="AJ1997/android_device_sony_kumquat" />
+  <project path="device/sony/nypon" name="AJ1997/android_device_sony_nypon" />
+  <project path="device/sony/montblanc-common" name="AJ1997/android_device_sony_montblanc-common" revision="cm-11.0" />
+  <project path="hardware/ste-sony" name="AJ1997/android_hardware_ste-sony" />
+  <project path="kernel/sony/u8500" name="AJ1997/android_kernel_sony_u8500" revision="master" />
+  <project path="vendor/sony" name="AJ1997/android_vendor_sony" revision="master" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="build" name="AJ1997/android_build" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bionic" name="AJ1997/android_bionic" />
+  <project path="bootable/recovery" name="AJ1997/android_bootable_recovery" revision="cwm" />
+  <project path="external/bluetooth/bluez" name="AJ1997/android_external_bluetooth_bluez" revision="master" />
+  <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
+  <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
+  <project path="frameworks/av" name="AJ1997/android_frameworks_av" />
+  <project path="frameworks/native" name="AJ1997/android_frameworks_native" />
+  <project path="frameworks/base" name="AJ1997/android_frameworks_base" />
+  <project path="hardware/libhardware" name="AJ1997/android_hardware_libhardware" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="AJ1997/android_hardware_libhardware_legacy" revision="cm-11.0" />
+  <project path="system/core" name="AJ1997/android_system_core" />
+  <project path="packages/apps/Bluetooth" name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth" revision="master" />
+  
+</manifest>
