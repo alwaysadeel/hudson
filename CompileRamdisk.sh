@@ -8,11 +8,8 @@ if [[ $# = 1 ]]; then
        export JAVA_HOME=$(realpath ../jdk1.6.0_45);
     fi
     case $1 in
-    -u)
-      lunch carbon_kumquat-eng && make bootimage;
-    ;;
-    -p)
-      lunch carbon_nypon-eng && make bootimage;
+    -s)
+      lunch carbon_pepper-eng && make bootimage;
     ;;
     *)
       echo "ERROR: Unknow option";
@@ -24,6 +21,6 @@ if [[ $# = 1 ]]; then
     exit -1;
   fi
 else
-  echo "ERROR: Number of options not correct. Usage: ./CompileRamdisk.sh -u | -p"
+  echo "ERROR: Number of options not correct. Usage: ./CompileRamdisk.sh -s"
   exit -1;
 fi
