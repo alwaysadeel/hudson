@@ -1,16 +1,15 @@
 android_scripts
 ===============
 
-Helpful scripts for build CM11
+Helpful scripts for building Carbon
 
 QuickStart:
 
-    git clone https://github.com/AJ1997/hudson.git -b kk carbon;
+    git clone https://github.com/alwaysadeel/hudson.git -b kk carbon;
     cd carbon;
     repo init -u https://github.com/CarbonDev/android.git -b kk
     ./Update.sh;
-    ./CompileROM.sh -u; (Xperia U)
-    ./CompileROM.sh -p; (Xperia P)   
+    ./CompileROM.sh -s; (Xperia Sola)   
 
 Credits:
     
