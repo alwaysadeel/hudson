@@ -21,29 +21,40 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CarbonDev/android_system_core" />
+  <remove-project name="CarbonDev/android_art" />
+  <remove-project name="platform/external/valgrind"            groups="pdk" />
 
-  <project path="packages/apps/Settings" name="AJ1997/android_packages_apps_Settings" />
-  <project path="device/sony/pepper" name="alwaysadeel/android_device_sony_pepper" />
-  <project path="device/sony/montblanc-common" name="AJ1997/android_device_sony_montblanc-common" />
-  <project path="hardware/ste-sony" name="AJ1997/android_hardware_ste-sony" revision="master" />
-  <project path="kernel/sony/u8500" name="AJ1997/android_kernel_sony_u8500" revision="master" />
-  <project path="vendor/sony" name="AJ1997/android_vendor_sony" revision="master" />
+  <project path="device/sony/pepper" name="alwaysadeel/android_device_sony_pepper" remote="gh" revision="kk" />
+  <project path="device/sony/montblanc-common" name="CarbonDevXperia/android_device_sony_montblanc-common" remote="gh" revision="master" />
+  <project path="hardware/ste-sony" name="CarbonDevXperia/android_hardware_ste-sony" remote="gh" revision="master" />
+  <project path="kernel/sony/u8500" name="CarbonDevXperia/android_kernel_sony_u8500" remote="gh" revision="master" />
+  <project path="vendor/sony" name="CarbonDevXperia/android_vendor_sony" remote="gh" revision="master" />
+   
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master"/>
+  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" remote="aosp" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" revision="master"/>
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="build" name="AJ1997/android_build" >
+ 
+  <project path="build" name="CarbonDevXperia/android_build" remote="gh" revision="kk"  >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="AJ1997/android_bionic" />
-  <project path="bootable/recovery" name="AJ1997/android_bootable_recovery" revision="cwm" />
-  <project path="external/bluetooth/bluez" name="AJ1997/android_external_bluetooth_bluez" revision="master" />
+  <project path="bionic" name="CarbonDevXperia/android_bionic" remote="gh" revision="kk" />
+  <project path="bootable/recovery" name="CarbonDevXperia/android_bootable_recovery" remote="gh" revision="cm-11.0" />
+  <project path="external/bluetooth/bluez" name="CarbonDevXperia/android_external_bluetooth_bluez" remote="gh" revision="master" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
-  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" revision="cm-11.0" />
-  <project path="frameworks/av" name="AJ1997/android_frameworks_av" />
-  <project path="frameworks/native" name="AJ1997/android_frameworks_native" />
-  <project path="frameworks/base" name="AJ1997/android_frameworks_base" />
-  <project path="hardware/libhardware" name="AJ1997/android_hardware_libhardware" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="AJ1997/android_hardware_libhardware_legacy" revision="cm-11.0" />
-  <project path="system/core" name="AJ1997/android_system_core" />
-  <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" revision="master" />
-  
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/av" name="CarbonDevXperia/android_frameworks_av" remote="gh" revision="kk" />
+  <project path="frameworks/native" name="CarbonDevXperia/android_frameworks_native" remote="gh" revision="kk" />
+  <project path="frameworks/base" name="CarbonDevXperia/android_frameworks_base" remote="gh" revision="kk" />
+  <project path="hardware/libhardware" name="CarbonDevXperia/android_hardware_libhardware" remote="gh" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="CarbonDevXperia/android_hardware_libhardware_legacy" remote="gh" revision="cm-11.0" />
+  <project path="system/core" name="CarbonDevXperia/android_system_core" remote="gh" revision="kk" />
+  <project path="packages/apps/Bluetooth" name="CarbonDevXperia/android_packages_apps_Bluetooth" remote="gh" revision="4.4.3_r1.1" />
+  <project path="packages/apps/Settings" name="CarbonDevXperia/android_packages_apps_Settings" remote="gh" revision="kk" />
+  <project path="art" name="CarbonDevXperia/android_art" remote="gh" revision="kk" />   
+  <project path="external/valgrind" name="CarbonDevXperia/android_external_valgrind" remote="gh" revision="master" />
+   
 </manifest>
