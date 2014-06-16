@@ -11,6 +11,7 @@
   <remove-project name="CarbonDev/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <remove-project name="CarbonDev/android_packages_inputmethods_LatinIME" />
   <remove-project name="CarbonDev/android_build" />
   <remove-project name="CarbonDev/android_bionic" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
@@ -54,6 +55,7 @@
   <project path="system/core" name="CarbonDevXperia/android_system_core" remote="gh" revision="kk" />
   <project path="packages/apps/Bluetooth" name="CarbonDevXperia/android_packages_apps_Bluetooth" remote="gh" revision="4.4.3_r1.1" />
   <project path="packages/apps/Settings" name="CarbonDevXperia/android_packages_apps_Settings" remote="gh" revision="kk" />
+  <project path="packages/inputmethods/LatinIME" name="CarbonDevXperia/android_packages_inputmethods_LatinIME" remote="gh" revision="kk" />
   <project path="art" name="CarbonDevXperia/android_art" remote="gh" revision="kk" />   
   <project path="external/valgrind" name="CarbonDevXperia/android_external_valgrind" remote="gh" revision="master" />
    
