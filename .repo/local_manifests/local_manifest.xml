@@ -58,5 +58,6 @@
   <project path="packages/inputmethods/LatinIME" name="CarbonDevXperia/android_packages_inputmethods_LatinIME" remote="gh" revision="kk" />
   <project path="art" name="CarbonDevXperia/android_art" remote="gh" revision="kk" />   
   <project path="external/valgrind" name="CarbonDevXperia/android_external_valgrind" remote="gh" revision="master" />
+  <project path="packages/apps/OpenDelta" name="CarbonDevXperia/packages_apps_OpenDelta" remote="gh" revision="master"/>
    
 </manifest>
