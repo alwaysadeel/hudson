@@ -9,7 +9,7 @@ if [[ $# = 1 ]]; then
     fi
     case $1 in
     -s)
-      lunch carbon_pepper-eng && make bootimage;
+      lunch carbon_pepper-userdebug && make bootimage;
     ;;
     *)
       echo "ERROR: Unknow option";
