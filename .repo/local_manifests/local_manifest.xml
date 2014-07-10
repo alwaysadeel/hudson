@@ -53,7 +53,7 @@
   <project path="hardware/libhardware" name="CarbonDevXperia/android_hardware_libhardware" remote="gh" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="CarbonDevXperia/android_hardware_libhardware_legacy" remote="gh" revision="cm-11.0" />
   <project path="system/core" name="CarbonDevXperia/android_system_core" remote="gh" revision="kk" />
-  <project path="packages/apps/Bluetooth" name="CarbonDevXperia/android_packages_apps_Bluetooth" remote="gh" revision="4.4.3_r1.1" />
+  <project path="packages/apps/Bluetooth" name="CarbonDevXperia/android_packages_apps_Bluetooth" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="CarbonDevXperia/android_packages_apps_Settings" remote="gh" revision="kk" />
   <project path="packages/inputmethods/LatinIME" name="CarbonDevXperia/android_packages_inputmethods_LatinIME" remote="gh" revision="kk" />
   <project path="art" name="CarbonDevXperia/android_art" remote="gh" revision="kk" />   
