@@ -15,6 +15,7 @@
   <remove-project name="CarbonDev/android_build" />
   <remove-project name="CarbonDev/android_bionic" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_external_busybox" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <remove-project name="CarbonDev/android_frameworks_av" />
   <remove-project name="CarbonDev/android_frameworks_base" />
@@ -43,6 +44,7 @@
   </project>
   <project path="bionic" name="CarbonDevXperia/android_bionic" remote="gh" revision="kk" />
   <project path="bootable/recovery" name="CarbonDevXperia/android_bootable_recovery" remote="gh" revision="cm-11.0" />
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="gh" revision="android-4.4" />
   <project path="external/bluetooth/bluez" name="CarbonDevXperia/android_external_bluetooth_bluez" remote="gh" revision="master" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
