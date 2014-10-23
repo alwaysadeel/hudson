@@ -25,7 +25,8 @@
   <remove-project name="CarbonDev/android_system_core" />
   <remove-project name="CarbonDev/android_art" />
   <remove-project name="platform/external/valgrind"            groups="pdk" />
-
+  <remove-project name="CarbonDev/android_vendor_carbon" />
+  
   <project path="device/sony/pepper" name="alwaysadeel/android_device_sony_pepper" remote="gh" revision="kk" />
   <project path="device/sony/montblanc-common" name="CarbonDevXperia/android_device_sony_montblanc-common" remote="gh" revision="master" />
   <project path="hardware/ste-sony" name="CarbonDevXperia/android_hardware_ste-sony" remote="gh" revision="master" />
@@ -61,5 +62,6 @@
   <project path="art" name="CarbonDevXperia/android_art" remote="gh" revision="kk" />   
   <project path="external/valgrind" name="CarbonDevXperia/android_external_valgrind" remote="gh" revision="master" />
   <project path="packages/apps/OpenDelta" name="CarbonDevXperia/packages_apps_OpenDelta" remote="gh" revision="master"/>
+  <project path="vendor/carbon" name="CarbonDevXperia/android_vendor_carbon" remote="gh" revision="kk" />
    
 </manifest>
